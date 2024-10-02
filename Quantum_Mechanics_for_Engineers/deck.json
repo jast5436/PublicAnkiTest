@@ -1,0 +1,359 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "083eb950-7dc3-11ef-9068-9f6144e34ab7",
+    "deck_config_uuid": "083ec224-7dc3-11ef-9068-9f6144e34ab7",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "083ec224-7dc3-11ef-9068-9f6144e34ab7",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Quantum Mechanics for Engineers",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -963606458284570218,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 5016026173085431316,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -2053895953923715014,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Write the time-independent Schrodinger Equation (1D)",
+                "\\[- \\frac{\\hbar^2}{2m}\\nabla^2\\psi(x)+V(x)\\psi(x) = E\\psi(x)\\]<br>"
+            ],
+            "guid": "Rij{AWbyz7",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the time-dependent Schrodinger Equation",
+                "\\[-\\frac{\\hbar^2}{2m}\\nabla^2\\Psi(\\boldsymbol r,t)+V(\\boldsymbol r,t)\\Psi(\\boldsymbol r,t) = i\\hbar \\frac{\\partial}{\\partial t}\\Psi(\\boldsymbol r,t)\\]<br>"
+            ],
+            "guid": "wslWuw-*.k",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is De Broglie's formula?",
+                "\\[\\lambda = \\frac{h}{p}\\]<br>"
+            ],
+            "guid": "mQE9B>g*g#",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The energy eigenvalues for the infinite particle in a box",
+                "\\[E = \\frac{n^2\\pi^2\\hbar^2}{2mL_z^2}\\]where&nbsp;\\(n = 1,2,3,...\\)"
+            ],
+            "guid": "sibI-B3bcB",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If the wavefunction is seperable into time and space components, what do the solutions look like?",
+                "\\[\\Psi(\\vec r,t)=A(t)\\psi(\\vec r)=A_0e^{\\frac{-iEt}{\\hbar}}\\psi(\\vec r)\\]<br>"
+            ],
+            "guid": "jk~c.@W^Yd",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the normalization integral for the wavefunction?",
+                "\\[\\int \\left| \\psi(\\vec r) \\right|^2 d^3\\vec r=1\\]<br>"
+            ],
+            "guid": "b</WT$2Y{`",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does a classical wave look like (in terms of k, f, and&nbsp;\\(\\omega\\))?",
+                "\\[\\nabla^2f=\\frac{k^2}{\\omega^2}\\frac{\\partial^2f}{\\partial t^2}\\]<br>"
+            ],
+            "guid": "jZF%>p]=XH",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the energy of a photon?",
+                "\\[E = hf=\\hbar\\omega= \\frac{1240 [\\text{eV * nm}]}{\\lambda [\\text{nm}]}\\]<br>"
+            ],
+            "guid": "J.YqUOE|R]",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does the wave equation look like for the infinite particle in a box (1D)?",
+                "\\[\\psi_n(z)=\\sqrt{\\frac{2}{L_z}}\\sin \\left({\\frac{n \\pi z}{L_z}} \\right)\\]<br>"
+            ],
+            "guid": "yvjYxyn,;:",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Represent the function&nbsp;\\(f(x)\\)&nbsp;as a set of orthogonal functions.",
+                "\\[f(x) = \\sum_nc_n\\psi_n(x)\\]<br>"
+            ],
+            "guid": "ctyu9eOa{y",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you calculate coefficient&nbsp;\\(c_m\\)&nbsp;from&nbsp;\\(f(x) = \\sum_nc_n\\psi_n(x)\\)?",
+                "\\[c_m = \\int \\psi_m^*(x)f(x)dx\\]<br>"
+            ],
+            "guid": "ifkhL(s$m-",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Degeneracy\"",
+                "Having sunk to a lower, more corrupt state... kidding. When two or more orthogonal states have the same eigenvalue (usually energy)."
+            ],
+            "guid": "ekdkjZSUTL",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a \"bound state\"?",
+                "States with energy less than the energy classically required to escape from a potential. Bound states tend fo have discrete allowed energies, with finite energy separations between two (nondegenerate) bound states."
+            ],
+            "guid": "hE_$Bm:)jR",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an \"unbound state\"?",
+                "States with energy greater than the classically required energy to escape a potential. They tend to have continous ranges of allowed energies."
+            ],
+            "guid": "hxdlwfrshd",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Zero point energy\"",
+                "The lowest energy solution in a quantum mechanical problem. Note that this energy is higher than the energy of the bottom of the potential. Thus, according to quantum mechanics, particles have non-zero energy. There isn't a classical analog to this phenomena.&nbsp;"
+            ],
+            "guid": "O!qhD_]fda",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"basis set\"",
+                "A basis set is a set of functions that can be linearly combined to represent other functions in the same function space."
+            ],
+            "guid": ")wqdnE@^#",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Representation\"",
+                "The coefficients of basis functions required to represent some other specific function would be the&nbsp;<i>representation</i>&nbsp;of that specific function in this basis."
+            ],
+            "guid": "s;^!Lh(EUk",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define/describe Wave-particle duality",
+                "The concept that particles, including massful ones such as electrons, behave in some ways as if they were waves (e.g., diffraction)."
+            ],
+            "guid": "QbD.U[)PV{",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Describe the probability density of a particle described by the wavefunction&nbsp;\\(\\psi(\\vec r)\\)",
+                "\\[\\text{Probability Density} = \\left|\\psi(\\vec r) \\right|^2 = \\psi^*(\\vec r)\\psi(\\vec r)\\]"
+            ],
+            "guid": "u~HE*OT(le",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Planck's Constant (\\(\\hbar\\))&nbsp;in terms of J*s and eV*s? How do you get from&nbsp;\\(\\hbar\\)&nbsp;to just&nbsp;\\(h\\)?",
+                "\\[\\hbar = 1.054*10^{-34}[\\text{J*s}]=6.582*10^{-16}[\\text{eV*s}]=\\frac{h}{2\\pi}\\]<br>"
+            ],
+            "guid": "roh(KY&)=Z",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the mass of an electron in kg and eV/c^2?",
+                "\\[m_e=9.109*10^{-31}[\\text{kg}]=0.511*10^6[\\text{eV/}c^2]\\]<br>"
+            ],
+            "guid": "Ee-cA1*;)Z",
+            "note_model_uuid": "083ecf08-7dc3-11ef-9068-9f6144e34ab7",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
